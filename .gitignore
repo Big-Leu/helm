@@ -1,0 +1,20 @@
+# Helm
+charts/*.tgz
+charts/*/charts
+charts/*/Chart.lock
+**/values.local.yaml
+*.tgz
+
+# General
+.DS_Store
+*.log
+*.bak
+*.tmp
+*.swp
+
+
+# IDE
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
